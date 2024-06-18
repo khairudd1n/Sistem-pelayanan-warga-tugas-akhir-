@@ -31,10 +31,12 @@ header {
 .dropbtn {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 16px;
-    border: none;
+    border: 2px solid white; /* Add a border around the button */
+    border-radius: 5px; /* Add rounded corners */
     cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; /* Add transition for smooth hover effect */
 }
 
 .dropdown {
@@ -46,7 +48,7 @@ header {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 160px;
+    min-width: 148px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
